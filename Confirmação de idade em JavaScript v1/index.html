@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilo.css">
+    <title>Confirmação cadastro de Exame</title>
+</head>
+<body>
+    <section>
+       <div class="grid">
+        <div class="formularios">
+            <label for="nome">nome</label>
+            <input type="text" id="nome" placeholder="Ex: Roberto">
+            <label for="idade">idade</label>
+            <input type="text" required id="idade" placeholder="Ex: 14" maxlength="2">
+            
+            <button onclick="clicar()">Confirmar</button>
+            
+        </div>
+
+        <div class="imagem">
+            <!-- <div id="info" class="info"></div> -->
+
+            <figure>
+                <img src="img.svg" alt="Imagem do Exame">
+            </figure>
+        </div>
+        <div id="myModal" class="modal">
+            <!-- Modal content -->
+            <div class="modal-content">
+              <span class="close">&times;</span>
+              <div id="info"></div>
+            </div>
+          
+          </div>
+       </div>
+    </section>
+
+    
+    
+       
+
+</body>
+    <script src="js.js"></script>
+</html>
